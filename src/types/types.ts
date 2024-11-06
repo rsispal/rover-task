@@ -1,10 +1,9 @@
-
 export enum Direction {
     NORTH = "N",
     EAST = "E",
     SOUTH = "S",
-    WEST = "W"
-};
+    WEST = "W",
+}
 
 export type DirectionPayload = {
     x: number;
@@ -12,7 +11,10 @@ export type DirectionPayload = {
     direction: Direction;
 };
 
-export type Coordinates = { 
+export type Coordinates = {
     x: number;
     y: number;
 };
+
+export type GridBounds = { x: number; y: number };
+export type Rover = { x: number; y: number; direction: Direction; commands: string };

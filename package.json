@@ -1,33 +1,33 @@
 {
-  "name": "rover-task",
-  "version": "1.0.0",
-  "description": "Mars Rover task",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "rm -rf ./dist && tsc",
-    "test": "jest --config jest.config.js --coverage --coverageReporters=\"text-summary\"",
-    "rover": "npm run test && npm run build && node ./rover_output.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rsispal/rover-task.git"
-  },
-  "author": "Rav Sispal",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rsispal/rover-task/issues"
-  },
-  "homepage": "https://github.com/rsispal/rover-task#readme",
-  "devDependencies": {
-    "@babel/preset-env": "^7.25.9",
-    "@babel/preset-typescript": "^7.25.9",
-    "jest": "^29.7.0",
-    "typescript": "^5.6.3"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "dependencies": {
-    "@types/jest": "^29.5.14"
-  }
+    "name": "rover-task",
+    "version": "1.0.0",
+    "description": "Mars Rover task",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "rm -rf ./dist && tsc",
+        "test": "jest --config jest.config.js --coverage --coverageReporters=\"text-summary\"",
+        "rover": "npm run test && npm run build && node ./rover_output.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rsispal/rover-task.git"
+    },
+    "author": "Rav Sispal",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rsispal/rover-task/issues"
+    },
+    "homepage": "https://github.com/rsispal/rover-task#readme",
+    "devDependencies": {
+        "@babel/preset-env": "^7.25.9",
+        "@babel/preset-typescript": "^7.25.9",
+        "jest": "^29.7.0",
+        "typescript": "^5.6.3"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "@types/jest": "^29.5.14"
+    }
 }
